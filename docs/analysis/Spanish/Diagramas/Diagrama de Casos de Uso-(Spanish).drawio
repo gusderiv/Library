@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="ezrNRJEiyH5GTvkjIOdY">
-    <mxGraphModel dx="2118" dy="1215" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1406" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="pJmF-RgDhT8SPXEcC0E8-1" parent="1" style="whiteSpace=wrap;html=1;gradientColor=#F2F2F2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="" vertex="1">
-          <mxGeometry height="600" width="790" x="171" y="113" as="geometry" />
+          <mxGeometry height="600" width="790" x="171" y="103" as="geometry" />
         </mxCell>
         <mxCell id="pJmF-RgDhT8SPXEcC0E8-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;USES CASES DIAGRAM&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="420" x="356" y="30" as="geometry" />
@@ -25,13 +25,16 @@
         <mxCell id="pJmF-RgDhT8SPXEcC0E8-7" edge="1" parent="1" source="pJmF-RgDhT8SPXEcC0E8-9" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;" target="pJmF-RgDhT8SPXEcC0E8-25">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="191" y="483" />
+              <mxPoint x="191" y="493" />
             </Array>
             <mxPoint x="101" y="373" as="sourcePoint" />
             <mxPoint x="101" y="333" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pJmF-RgDhT8SPXEcC0E8-8" edge="1" parent="1" source="pJmF-RgDhT8SPXEcC0E8-9" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" target="pJmF-RgDhT8SPXEcC0E8-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DcaTTTYGFgphD1PT_AZn-3" edge="1" parent="1" source="pJmF-RgDhT8SPXEcC0E8-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="DcaTTTYGFgphD1PT_AZn-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pJmF-RgDhT8SPXEcC0E8-9" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Administrador" vertex="1">
@@ -54,7 +57,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pJmF-RgDhT8SPXEcC0E8-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Añadir&amp;nbsp;&lt;br&gt;libro" vertex="1">
-          <mxGeometry height="40" width="100" x="211" y="173" as="geometry" />
+          <mxGeometry height="40" width="100" x="211" y="157" as="geometry" />
         </mxCell>
         <mxCell id="pJmF-RgDhT8SPXEcC0E8-15" edge="1" parent="1" source="pJmF-RgDhT8SPXEcC0E8-18" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryPerimeter=0;" target="pJmF-RgDhT8SPXEcC0E8-26">
           <mxGeometry relative="1" as="geometry" />
@@ -70,7 +73,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pJmF-RgDhT8SPXEcC0E8-18" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Eliminar&lt;br&gt;libro" vertex="1">
-          <mxGeometry height="40" width="100" x="211" y="223" as="geometry" />
+          <mxGeometry height="40" width="100" x="211" y="207" as="geometry" />
         </mxCell>
         <mxCell id="pJmF-RgDhT8SPXEcC0E8-19" edge="1" parent="1" source="pJmF-RgDhT8SPXEcC0E8-21" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="pJmF-RgDhT8SPXEcC0E8-26">
           <mxGeometry relative="1" as="geometry">
@@ -84,7 +87,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pJmF-RgDhT8SPXEcC0E8-21" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Actualizar&amp;nbsp;&lt;br&gt;libro" vertex="1">
-          <mxGeometry height="40" width="100" x="211" y="273" as="geometry" />
+          <mxGeometry height="40" width="100" x="211" y="257" as="geometry" />
         </mxCell>
         <mxCell id="pJmF-RgDhT8SPXEcC0E8-22" edge="1" parent="1" source="pJmF-RgDhT8SPXEcC0E8-24" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0.051;entryY=0.684;entryDx=0;entryDy=0;entryPerimeter=0;" target="pJmF-RgDhT8SPXEcC0E8-26">
           <mxGeometry relative="1" as="geometry">
@@ -97,7 +100,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pJmF-RgDhT8SPXEcC0E8-24" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Ver Estado Libro" vertex="1">
-          <mxGeometry height="40" width="100" x="211" y="323" as="geometry" />
+          <mxGeometry height="40" width="100" x="211" y="307" as="geometry" />
         </mxCell>
         <mxCell id="pJmF-RgDhT8SPXEcC0E8-25" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Consultar&lt;br&gt;libro" vertex="1">
           <mxGeometry height="40" width="100" x="501" y="473" as="geometry" />
@@ -129,8 +132,8 @@
         <mxCell id="pJmF-RgDhT8SPXEcC0E8-32" edge="1" parent="1" source="pJmF-RgDhT8SPXEcC0E8-9" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.435;entryY=-0.011;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" target="pJmF-RgDhT8SPXEcC0E8-26">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="201" y="163" />
-              <mxPoint x="421" y="163" />
+              <mxPoint x="201" y="150" />
+              <mxPoint x="421" y="150" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -156,7 +159,7 @@
         <mxCell id="pJmF-RgDhT8SPXEcC0E8-36" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Reservar&lt;br&gt;Libro" vertex="1">
           <mxGeometry height="40" width="100" x="771" y="203" as="geometry" />
         </mxCell>
-        <mxCell id="pJmF-RgDhT8SPXEcC0E8-37" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Ver libros&lt;br&gt;leidos" vertex="1">
+        <mxCell id="pJmF-RgDhT8SPXEcC0E8-37" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Consultar libros&lt;br&gt;leidos" vertex="1">
           <mxGeometry height="40" width="100" x="771" y="263" as="geometry" />
         </mxCell>
         <mxCell id="pJmF-RgDhT8SPXEcC0E8-38" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Ver Fechas&lt;br&gt;Devolucion" vertex="1">
@@ -180,8 +183,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pJmF-RgDhT8SPXEcC0E8-43" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="validar/anular&amp;nbsp;&lt;br&gt;registro" vertex="1">
-          <mxGeometry height="40" width="100" x="211" y="373" as="geometry" />
+        <mxCell id="pJmF-RgDhT8SPXEcC0E8-43" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Confirmar registro nuevo usuario" vertex="1">
+          <mxGeometry height="40" width="109" x="211" y="354" as="geometry" />
+        </mxCell>
+        <mxCell id="DcaTTTYGFgphD1PT_AZn-1" edge="1" parent="1" source="pJmF-RgDhT8SPXEcC0E8-44" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="pJmF-RgDhT8SPXEcC0E8-48">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pJmF-RgDhT8SPXEcC0E8-44" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Usuario NO&lt;br&gt;Registrado" vertex="1">
           <mxGeometry height="80" width="50" x="91" y="543" as="geometry" />
@@ -189,19 +195,11 @@
         <mxCell id="pJmF-RgDhT8SPXEcC0E8-45" edge="1" parent="1" source="pJmF-RgDhT8SPXEcC0E8-44" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.24;entryY=0.912;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" target="pJmF-RgDhT8SPXEcC0E8-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pJmF-RgDhT8SPXEcC0E8-46" edge="1" parent="1" source="pJmF-RgDhT8SPXEcC0E8-48" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="pJmF-RgDhT8SPXEcC0E8-25">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="pJmF-RgDhT8SPXEcC0E8-47" connectable="0" parent="pJmF-RgDhT8SPXEcC0E8-46" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;fillColor=default;" value="&amp;lt;Extend&amp;gt;" vertex="1">
-          <mxGeometry relative="1" x="0.0411" y="-2" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="pJmF-RgDhT8SPXEcC0E8-48" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Registrarse" vertex="1">
-          <mxGeometry height="40" width="100" x="671" y="533" as="geometry" />
+          <mxGeometry height="40" width="100" x="501" y="570" as="geometry" />
         </mxCell>
         <mxCell id="pJmF-RgDhT8SPXEcC0E8-49" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Ver&amp;nbsp;&lt;br&gt;usuarios" vertex="1">
-          <mxGeometry height="40" width="100" x="211" y="423" as="geometry" />
+          <mxGeometry height="40" width="100" x="211" y="446" as="geometry" />
         </mxCell>
         <mxCell id="pJmF-RgDhT8SPXEcC0E8-50" edge="1" parent="1" source="pJmF-RgDhT8SPXEcC0E8-9" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.047;entryY=0.292;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" target="pJmF-RgDhT8SPXEcC0E8-49">
           <mxGeometry relative="1" as="geometry" />
@@ -215,13 +213,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pJmF-RgDhT8SPXEcC0E8-53" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Sancionar" vertex="1">
-          <mxGeometry height="40" width="100" x="411" y="383" as="geometry" />
+          <mxGeometry height="40" width="100" x="430" y="413" as="geometry" />
         </mxCell>
         <mxCell id="pJmF-RgDhT8SPXEcC0E8-54" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Ver Perfil" vertex="1">
           <mxGeometry height="40" width="100" x="771" y="373" as="geometry" />
         </mxCell>
         <mxCell id="pJmF-RgDhT8SPXEcC0E8-55" edge="1" parent="1" source="pJmF-RgDhT8SPXEcC0E8-31" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" target="pJmF-RgDhT8SPXEcC0E8-54">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DcaTTTYGFgphD1PT_AZn-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Anular registro nuevo usuario" vertex="1">
+          <mxGeometry height="40" width="107" x="213" y="400" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
