@@ -2,12 +2,9 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 void main() {
 
-    System.out.print("visual en github");
-
-            String rojo = "\u001B[31m";
-            String reset = "\u001B[0m";
-
-            System.out.println(rojo + " Este texto es rojo" + reset);
-
-    }
+    //Administrator admin = new Administrator("hola@gmail.com","1234","Gustavo", "Delgadillo",001);
+    //System.out.println("Los datos son: " + admin);
+    LibraryEngine engine = new LibraryEngine();
+    engine.AdminsMenu();
+}
 
