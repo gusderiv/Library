@@ -5,13 +5,15 @@ public class Book {
     private String author;
     private int stock;
     private boolean state;
+    private int isbn;
 
-    public Book(String nameBook, String genre, String author, int stock, boolean state) {
+    public Book(String nameBook, String genre, String author, int stock, boolean state, int isbn) {
         this.nameBook = nameBook;
         this.genre = genre;
         this.author = author;
         this.stock = stock;
         this.state = state;
+        this.isbn = isbn;
     }
 
     public String getNameBook() {
@@ -50,12 +52,18 @@ public class Book {
         return state;
     }
 
+    public int getISBN() { return isbn;    }
+
+    public void setISBN(int isbn) {  this.isbn = isbn;  }
+
+
     public void setState(boolean state) {
         this.state = state;
     }
+
     @Override
     public String toString(){
-        return "Title: "+ nameBook + " Genre: " + genre + " Author: " + author + " Stock: " + stock + " State: " + state;
+        return "Title: "+ nameBook + "ISBN: " + isbn + " Genre: " + genre + " Author: " + author + " Stock: " + stock + " State: " + state;
     }
 
 
