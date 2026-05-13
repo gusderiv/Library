@@ -1,16 +1,40 @@
-import java.util.Dictionary;
-import java.util.HashMap;
+import java.util.ArrayList;
 import java.util.List;
 
 public class ListBooks {
 
-    HashMap<Book,Integer> ListBook;
+    List<Book> listbooks;
+
     public ListBooks(){
-        this.ListBook = new HashMap<>();
+        this.listbooks = new ArrayList<>();
+    }
+
+
+
+    public void InsertBook(String nameBook, String genre, String author, int stock, boolean state, int isbn){
+
+       listbooks.add(new Book(nameBook, genre,author,stock, state,isbn));
+
+       setBookByIsbn(isbn);
 
     }
-    public void IngresarLibros(String nameBook, String genre, String author, int stock, boolean state){
 
+    public Book setBookByIsbn(int isbn){
+
+        Book book = null;
+
+        for (Book findBook : listbooks){
+            if(findBook.getISBN()==isbn){
+                book = findBook;
+            }
+        }
+
+        return book;
 
     }
+
+
+
+
+
 }
