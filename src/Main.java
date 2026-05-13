@@ -5,5 +5,6 @@ void main() {
     //Administrator admin = new Administrator("hola@gmail.com","1234","Gustavo", "Delgadillo",001);
     //System.out.println("Los datos son: " + admin);
     LibraryEngine engine = new LibraryEngine();
+    engine.Test();
 }
 

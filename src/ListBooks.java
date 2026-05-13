@@ -11,11 +11,12 @@ public class ListBooks {
 
 
 
-    public void InsertBook(String nameBook, String genre, String author, int stock, boolean state, int isbn){
+    //public void InsertBook(String nameBook, String genre, String author, int stock, boolean state, int isbn){
+    public void InsertBook(Book book){
+       //listbooks.add(new Book(nameBook, genre,author,stock, state,isbn));
+        listbooks.add(book);
+       setBookByIsbn(book.getISBN());
 
-       listbooks.add(new Book(nameBook, genre,author,stock, state,isbn));
-
-       setBookByIsbn(isbn);
 
     }
 
@@ -30,6 +31,7 @@ public class ListBooks {
         }
 
         return book;
+
 
     }
 
