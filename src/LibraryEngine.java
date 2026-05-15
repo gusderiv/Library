@@ -6,7 +6,7 @@ public class LibraryEngine {
     Scanner sc = new Scanner(System.in);
 
 
-    public void Menu1() {
+    public void FirstMenu() {
 
 
         System.out.println("______________________________________________________________________________________");
@@ -19,10 +19,10 @@ public class LibraryEngine {
         System.out.println("3- Consult Books");
         System.out.print("Option: ");
         String option = sc.nextLine();
-        Menu1Engine(option);
+        FirstMenuEngine(option);
     }
 
-    public void Menu1Engine(String option){
+    public void FirstMenuEngine(String option){
         switch (option) {
             case "1":
                 System.out.println("Has elegido la opción 1");
@@ -37,7 +37,10 @@ public class LibraryEngine {
                 // ShowBooks();
                 break;
         }
+
     }
+
+    //public void Menu2
 
     Book book1 = new Book("Harry Potter y la Piedra Filosofal","fantasia-misterio","J.K Rowling", 3, true, 123 );
     Book book2 = new Book("Harry Potter y la Cámara Secreta","fantasia-misterio","J.K Rowling", 3, true, 456 );
