@@ -9,9 +9,9 @@ public class LibraryEngine {
     public void Menu1() {
 
 
-        System.out.println("_______________________");
-        System.out.println("Welcome to our library!");
-        System.out.println("------------------------");
+        System.out.println("______________________________________________________________________________________");
+        System.out.println("                              s WELCOME TO OUR LIBRARY                                 ");
+        System.out.println("_______________________________________________________________________________________");
         System.out.println("");
         System.out.println("Choose an option: ");
         System.out.println("1- Login");
