@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class LibraryEngine {
     ListBooks listBooks = new ListBooks();
     Scanner sc = new Scanner(System.in);
-    int option;
+
 
     public void Menu1() {
 
@@ -12,20 +12,25 @@ public class LibraryEngine {
         System.out.println("_______________________");
         System.out.println("Welcome to our library!");
         System.out.println("------------------------");
-
-        System.out.println("Choose an option: ");
         System.out.println("");
+        System.out.println("Choose an option: ");
         System.out.println("1- Login");
         System.out.println("2- Sign up");
         System.out.println("3- Consult Books");
         System.out.print("Option: ");
-        option = sc.nextInt();
-
+        String option = sc.nextLine();
+        Menu1Engine(option);
     }
 
-    public void Menu1Engine(){
+    public void Menu1Engine(String option){
         switch (option) {
-            case 3:
+            case "1":
+                System.out.println("Has elegido la opción 1");
+            break;
+            case "2":
+                System.out.println("Has elegido la opción 2");
+            break;
+            case "3":
                 System.out.println("Has elegido la opción 3");
                 break;
         }
@@ -38,6 +43,7 @@ public class LibraryEngine {
     public void Test(){
         listBooks.InsertBook(book1);
         listBooks.InsertBook(book2);
+        listBooks.InsertBook(book3);
 
         System.out.println("Information in the list");
         listBooks.ShowBooks();
