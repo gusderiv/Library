@@ -10,7 +10,10 @@ public class LibraryEngine {
 
     public void Test(){
         listBooks.InsertBook(book1);
+        listBooks.InsertBook(book2);
 
+        System.out.println("information in the list");
+        listBooks.ShowBooks();
     }
 
 

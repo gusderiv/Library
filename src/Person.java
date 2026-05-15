@@ -47,7 +47,11 @@ abstract class Person {
 
     @Override
     public String toString(){
-            return STR."name: \{name} lastName: \{lastName} email: \{email}";
+            //return STR."name: \{name} lastName: \{lastName} email: \{email}";
+
+        return "Name: " + name + "\n" +
+                "Last Name: " + lastName + "\n" +
+                "Email: " + email;
     }
 
     public abstract boolean Login();

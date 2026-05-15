@@ -63,7 +63,13 @@ public class Book {
 
     @Override
     public String toString(){
-        return "Title: "+ nameBook + "ISBN: " + isbn + " Genre: " + genre + " Author: " + author + " Stock: " + stock + " State: " + state;
+        //return "Title: "+ nameBook + "ISBN: " + isbn + " Genre: " + genre + " Author: " + author + " Stock: " + stock + " State: " + state;
+        return "Title: " + nameBook + "\n" +
+                "ISBN: " + isbn + "\n" +
+                "Genre: " + genre + "\n" +
+                "Author: " + author + "\n" +
+                "Stock: " + stock + "\n" +
+                "State: " + (state ? "Available" : "Not Available")+"\n";
     }
 
 

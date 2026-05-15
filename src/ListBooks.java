@@ -15,12 +15,12 @@ public class ListBooks {
     public void InsertBook(Book book){
        //listbooks.add(new Book(nameBook, genre,author,stock, state,isbn));
         listbooks.add(book);
-       setBookByIsbn(book.getISBN());
+       FindBookByIsbn(book.getISBN());
 
 
     }
 
-    public Book setBookByIsbn(int isbn){
+    public Book FindBookByIsbn(int isbn){
 
         Book book = null;
 
@@ -31,11 +31,15 @@ public class ListBooks {
         }
 
         return book;
-
-
     }
 
+    public void ShowBooks(){
+        for(Book boook : listbooks){
+            System.out.println(boook.toString());
 
+        }
+
+    }
 
 
 
