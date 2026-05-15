@@ -10,7 +10,7 @@ public class LibraryEngine {
 
 
         System.out.println("______________________________________________________________________________________");
-        System.out.println("                              s WELCOME TO OUR LIBRARY                                 ");
+        System.out.println("                               WELCOME TO OUR LIBRARY                                 ");
         System.out.println("_______________________________________________________________________________________");
         System.out.println("");
         System.out.println("Choose an option: ");
