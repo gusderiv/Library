@@ -1,14 +1,14 @@
 public class Book {
 
-    private String nameBook;
+    private String name;
     private String genre;
     private String author;
     private int stock;
     private boolean state;
     private int isbn;
 
-    public Book(String nameBook, String genre, String author, int stock, boolean state, int isbn) {
-        this.nameBook = nameBook;
+    public Book(String name, String genre, String author, int stock, boolean state, int isbn) {
+        this.name = name;
         this.genre = genre;
         this.author = author;
         this.stock = stock;
@@ -16,12 +16,10 @@ public class Book {
         this.isbn = isbn;
     }
 
-    public String getNameBook() {
-        return nameBook;
-    }
+    public String getName() {return name;}
 
-    public void setNameBook(String nameBook) {
-        this.nameBook = nameBook;
+    public void setName(String nameBook) {
+        this.name = nameBook;
     }
 
     public String getGenre() {
@@ -56,7 +54,6 @@ public class Book {
 
     public void setISBN(int isbn) {  this.isbn = isbn;  }
 
-
     public void setState(boolean state) {
         this.state = state;
     }
@@ -64,7 +61,7 @@ public class Book {
     @Override
     public String toString(){
         //return "Title: "+ nameBook + "ISBN: " + isbn + " Genre: " + genre + " Author: " + author + " Stock: " + stock + " State: " + state;
-        return "Title: " + nameBook + "\n" +
+        return "Title: " + name + "\n" +
                 "ISBN: " + isbn + "\n" +
                 "Genre: " + genre + "\n" +
                 "Author: " + author + "\n" +
