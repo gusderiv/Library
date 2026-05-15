@@ -1,8 +1,27 @@
 import java.util.Scanner;
 
+
 public class LibraryEngine {
     ListBooks listBooks = new ListBooks();
     Scanner sc = new Scanner(System.in);
+    int option;
+
+   /* System.out.println("_______________________");
+    System.out.println("Welcome to our library!");
+    System.out.println("_______________________");
+
+    System.out.println("Choose an option: ");
+    System.out.println("");
+    System.out.println("1- Login");
+    System.out.println("2- Sign up");
+    System.out.println("3- Consult Books");
+    System.out.println("Option: ");
+    option = sc.nextInt();
+    switch(option){
+        case 3:
+            listBooks.ShowBooks();
+            break;
+    }*/
 
     Book book1 = new Book("Harry Potter y la Piedra Filosofal","fantasia-misterio","J.K Rowling", 3, true, 123 );
     Book book2 = new Book("Harry Potter y la Cámara Secreta","fantasia-misterio","J.K Rowling", 3, true, 456 );
@@ -12,7 +31,7 @@ public class LibraryEngine {
         listBooks.InsertBook(book1);
         listBooks.InsertBook(book2);
 
-        System.out.println("information in the list");
+        System.out.println("Information in the list");
         listBooks.ShowBooks();
     }
 

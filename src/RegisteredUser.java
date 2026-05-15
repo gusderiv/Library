@@ -41,11 +41,14 @@ public class RegisteredUser extends Person{
 
     @Override
     public void CheckProfile() {
-
+        System.out.println("Adress: " + address);
+        System.out.println("State: " + name);
     }
 
     @Override
     public void SearchBooks() {
 
     }
-}
+    }
+
+
