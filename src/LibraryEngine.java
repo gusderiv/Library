@@ -26,12 +26,15 @@ public class LibraryEngine {
         switch (option) {
             case "1":
                 System.out.println("Has elegido la opción 1");
+                // Login();
             break;
             case "2":
                 System.out.println("Has elegido la opción 2");
+                // ValidateNewUsers();
             break;
             case "3":
                 System.out.println("Has elegido la opción 3");
+                // ShowBooks();
                 break;
         }
     }

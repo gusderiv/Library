@@ -5,6 +5,10 @@ public class Administrator extends Person{
         super(email,password,name, lastName);
         this.id_Administrator= id_Administrator;
     }
+    /*
+    public boolean ValidateNewUsers(){}
+     */
+
 
     @Override
     public String toString(){
