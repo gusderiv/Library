@@ -1,13 +1,42 @@
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.List;
 
 public class ListBooks {
 
-    List<Book> listbooks;
+   private List<Book> listbooks;
+   private String nameFile = "books.txt";
 
     public ListBooks(){
         this.listbooks = new ArrayList<>();
     }
+
+    public void SearchFile(String nameFile) {
+
+        File myFile = new File(nameFile);
+
+        if (myFile.exists()) {
+            listbooks = UploadBookFile();
+        }
+    }
+
+    public List<Book> UploadBookFile(){
+       List <Book>booksFile = new ArrayList<>();
+
+      /*   try(BufferedReader br = new BufferedReader(new FileReader(nameFile))){
+            String lineas;
+            while((lineas = br.readLine()) !=null){
+
+            }
+
+
+        }*/
+
+        return booksFile;
+    }
+
 
     //public void InsertBook(String nameBook, String genre, String author, int stock, boolean state, int isbn){
     public void InsertBook(Book book){
