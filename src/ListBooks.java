@@ -9,8 +9,6 @@ public class ListBooks {
         this.listbooks = new ArrayList<>();
     }
 
-
-
     //public void InsertBook(String nameBook, String genre, String author, int stock, boolean state, int isbn){
     public void InsertBook(Book book){
        //listbooks.add(new Book(nameBook, genre,author,stock, state,isbn));
@@ -33,6 +31,7 @@ public class ListBooks {
         return book;
     }
 
+    //mover al engine
     public void ShowBooks(){
         for(Book boook : listbooks){
             System.out.println(boook.toString());
